@@ -15,7 +15,7 @@ function generate(){
         monTableau = result.split(',');
         monTableau = shuffle(monTableau);
 
-        var chaine = monTableau.join(" ");//tab to chain
+        var chaine = monTableau.join(" ");//tabl to chain
         input2.value=chaine.toString(); // et on set l'input de résultat
        
                  //groupement
