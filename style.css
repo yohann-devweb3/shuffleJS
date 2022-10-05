@@ -1,0 +1,39 @@
+.txtcenter{
+    text-align: center!important;
+}
+
+#inpListWords , #inpFinalWords{
+    font-size: x-large;
+}
+
+.inline{
+    display: inline-block!important;
+}
+
+li:nth-of-type(2){
+    color : rgb(65, 135, 240);
+}
+li:nth-of-type(4){
+    color : rgb(164, 57, 156);
+}
+li:nth-of-type(6){
+    color : rgb(65, 135, 240);
+}
+li:nth-of-type(8){
+    color : rgb(164, 57, 156);
+}
+li:nth-of-type(10){
+    color : rgb(65, 135, 240);
+}
+
+#myList{
+    text-align: center;
+    font-size: x-large;
+}
+
+#inpFinalWords{
+    display: none;
+}
+.w50{
+    width: 50%!important;
+}
