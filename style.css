@@ -1,13 +1,5 @@
-.txtcenter{
-    text-align: center!important;
-}
-
 #inpListWords , #inpFinalWords{
     font-size: x-large;
-}
-
-.inline{
-    display: inline-block!important;
 }
 
 li:nth-of-type(2){
@@ -34,6 +26,16 @@ li:nth-of-type(10){
 #inpFinalWords{
     display: none;
 }
+
+/*ADDONS*/
 .w50{
     width: 50%!important;
+}
+
+.inline{
+    display: inline-block!important;
+}
+
+.txtcenter{
+    text-align: center!important;
 }
