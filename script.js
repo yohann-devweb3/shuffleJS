@@ -15,9 +15,6 @@ function generate(){
         monTableau = result.split(',');
         monTableau = shuffle(monTableau);
 
-
-
-
         var chaine = monTableau.join(" ");//tab to chain
         input2.value=chaine.toString(); // et on set l'input de résultat
        
@@ -29,6 +26,7 @@ function generate(){
                         element =[];
                         for (let i = j; i < j+indicegroup; i=i+1) {
                             element.push(monTableau[i]);
+                            console.log( element.push(monTableau[i]));
                         } 
                         AppendElem("li",element.join(" "),"myList");
                 }
