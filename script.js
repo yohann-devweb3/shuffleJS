@@ -26,7 +26,7 @@ function generate(){
                         element =[];
                         for (let i = j; i < j+indicegroup; i=i+1) {
                             element.push(monTableau[i]);
-                            console.log( element.push(monTableau[i]));
+                        
                         } 
                         AppendElem("li",element.join(" "),"myList");
                 }
